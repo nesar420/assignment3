@@ -24,7 +24,7 @@
 </head>
 
 <body class="font-lato">
-  
+
   <header class="mx-9 my-1 lg:mx-24 my-2 ">
     <div
       class="container space-x-reverse hidden lg:flex bg-[#F85559] justify-between items-center rounded-full px-5 py-4">
@@ -498,13 +498,37 @@
               <div class="divider"></div>
               <p>Apples</p>
               <div class="rating">
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
-              <a href=""><span class="text-[#F85559;] font-semibold"> Details </span></a>
+              <button class="btn bg-transparent border-none text-[#F85559;] font-semibold"
+                onclick="my_modal_1.showModal()">Details</button>
+                <!-- feedback janayen plz , keno **modal** ta large screen e center/show hocche na -->
+              <dialog id="my_modal_1" class="modal modal modal-bottom lg: modal-middle">
+                <form method="dialog" class="modal-box">
+                  <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                  <div class="card w-auto   ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center place-items-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="divider w-20 mx-auto"></div>
+                      <p>Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    </div>
+                </form>
+              </dialog>
+
             </div>
           </div>
           <!-- 222222222222222222 -->
@@ -515,15 +539,38 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
               <div class="divider"></div>
-              <p>Apples</p>
+              <p>Orange</p>
               <div class="rating">
-                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"  />
                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
               </div>
-              <a href=""><span class="text-[#F85559;] font-semibold"> Details </span></a>
+              <button class="btn bg-transparent border-none text-[#F85559;] font-semibold"
+                onclick="my_modal_2.showModal()">Details</button>
+                <!-- feedback janayen plz , keno **modal** ta large screen e center/show hocche na -->
+              <dialog id="my_modal_2" class="modal modal modal-bottom lg: modal-middle">
+                <form method="dialog" class="modal-box">
+                  <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                  <div class="card w-auto   ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center place-items-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="divider w-20 mx-auto"></div>
+                      <p>Orange</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    </div>
+                </form>
+              </dialog>
             </div>
           </div>
           <!-- 3333333333333333333 -->
@@ -534,15 +581,38 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
               <div class="divider"></div>
-              <p>Apples</p>
+              <p>Red Dragon</p>
               <div class="rating">
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400"  />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
               </div>
-              <a href=""><span class="text-[#F85559;] font-semibold"> Details </span></a>
+              <button class="btn bg-transparent border-none text-[#F85559;] font-semibold"
+                onclick="my_modal_3.showModal()">Details</button>
+                <!-- feedback janayen plz , keno **modal** ta large screen e center/show hocche na -->
+              <dialog id="my_modal_3" class="modal modal modal-bottom lg: modal-middle">
+                <form method="dialog" class="modal-box">
+                  <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                  <div class="card w-auto   ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center place-items-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="divider w-20 mx-auto"></div>
+                      <p>Red Dragon</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    </div>
+                </form>
+              </dialog>
             </div>
           </div>
           <!-- 44444444444444444444444 -->
@@ -553,7 +623,7 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
               <div class="divider"></div>
-              <p>Apples</p>
+              <p>Banana</p>
               <div class="rating">
                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
@@ -561,7 +631,30 @@
                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
               </div>
-              <a href=""><span class="text-[#F85559;] font-semibold"> Details </span></a>
+              <button class="btn bg-transparent border-none text-[#F85559;] font-semibold"
+                onclick="my_modal_4.showModal()">Details</button>
+                <!-- feedback janayen plz , keno **modal** ta large screen e center/show hocche na -->
+              <dialog id="my_modal_4" class="modal modal modal-bottom lg: modal-middle">
+                <form method="dialog" class="modal-box">
+                  <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                  <div class="card w-auto   ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center place-items-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="divider w-20 mx-auto"></div>
+                      <p>Banana</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    </div>
+                </form>
+              </dialog>
             </div>
           </div>
         </div>

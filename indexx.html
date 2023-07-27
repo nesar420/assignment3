@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!-- You can open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_3.showModal()">Details</button>
+<dialog id="my_modal_3" class="modal">
+  <form method="dialog" class="modal-box">
+    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click on ✕ button to close</p>
+  </form>
+</dialog> -->
+
+<button class="btn bg-transparent border-none text-[#F85559;] font-semibold" onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal modal modal-bottom lg:modal-middle">
+<form method="dialog" class="modal-box">
+<button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+<div class="card w-auto   ">
+    <figure class="px-10 pt-10">
+      <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center place-items-center">
+      <h2 class="card-title">12.90$ - 18.85$</h2>
+      <div class="divider w-20 mx-auto"></div>
+      <p>Apples</p>
+      <div class="rating">
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      </div>
+    </div>
+    </form>
+</dialog>
+
+</body>
+</html>
