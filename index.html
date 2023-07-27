@@ -14,12 +14,17 @@
     .font-lato {
       font-family: 'Lato', sans-serif;
     }
+
+    body {
+      overflow-x: hidden;
+      box-sizing: border-box
+    }
   </style>
 
 </head>
 
 <body class="font-lato">
-<!-- Amar responsive part without x-axix-scroll charai hoise, live website dekhacche - okay-state ei, kintu github r folder location theke index open korle responsive dekhacche na, ami Programming heror email e mail subject reference code - "" -->
+  <!-- Amar responsive part without x-axix-scroll charai hoise, live website dekhacche - okay-state ei, kintu github r folder location theke index open korle responsive dekhacche na, ami Programming heror email e mail subject reference code - "" -->
   <header class="mx-9 my-1 lg:mx-24 my-2 ">
     <div
       class="container space-x-reverse hidden lg:flex bg-[#F85559] justify-between items-center rounded-full px-5 py-4">
@@ -38,7 +43,7 @@
       </div>
       <div class="hidden lg:flex relative">
         <input type="search" name="search" placeholder="Search"
-          class="w-auto border-none bg-white px-4 py-2 text-gray-900 outline-none rounded-full">
+          class="w-auto border-none bg-white px-4 py-2 text-gray-900 outline-none rounded-full placeholder:italic placeholder:underline placeholder:text-sm">
         <button>
           <img src="./images/icons8-search-30.png" alt=""
             class="bg-white w-15 absolute  top-1 right-2 pl-2 rounded-none">
@@ -648,17 +653,17 @@
     <section>
 
       <div class="choose-container grid grid-cols-1 gap-x-2 lg:grid-cols-3 gap-4">
-            <div class="col-span-3 text-center mt-20 mx-auto lg:w-2/4 ">
-                  <h2 class="text-4xl font-extrabold">
-                    Why Choose Us
-                  </h2>
-                  <p class="my-6 ">
-                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old.
-                  </p>
-            </div>
+        <div class="col-span-3 text-center mt-20 mx-auto lg:w-2/4 ">
+          <h2 class="text-4xl font-extrabold">
+            Why Choose Us
+          </h2>
+          <p class="my-6 ">
+            Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+            from 45 BC, making it over 2000 years old.
+          </p>
+        </div>
 
-            <div class="card-contain1 hidden lg:grid ">
+        <div class="card-contain1 hidden lg:grid ">
           <!-- card 1 -->
           <div class="flex gap-x-4 ">
             <div>
@@ -706,78 +711,78 @@
             </div>
           </div>
 
-            </div>
+        </div>
 
-            <div class="mx-auto hidden lg:grid">
-              <img src="./images/whychoose1.png" alt="" class="h-72">
+        <div class="mx-auto hidden lg:grid">
+          <img src="./images/whychoose1.png" alt="" class="h-72">
+        </div>
+
+        <div class="card-contain2 text-right hidden lg:grid ">
+          <!-- card 1 -->
+          <div class="flex gap-x-4 flex-row-reverse">
+            <div>
+              <img src="./images/Ellipse 2.png" alt="" class="h-auto">
             </div>
-            
-            <div class="card-contain2 text-right hidden lg:grid ">
-              <!-- card 1 -->
-              <div class="flex gap-x-4 flex-row-reverse">
-                <div>
-                  <img src="./images/Ellipse 2.png" alt="" class="h-auto">
-                </div>
-                <div class="grid gap-y-0 place-items-end">
-                  <h2 class="text-xl font-extrabold">
-                    Dedicated Team
-                  </h2>
-                  <div class="divider w-20 m-0"></div>
-                  <p>
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                </div>
-              </div>
-              <!-- card 2 -->
-              <div class="flex gap-x-4 flex-row-reverse ">
-                <div>
-                  <img src="./images/love-icon.png" alt="" class="h-auto rounded-full">
-                </div>
-                <div class="grid gap-y-0 place-items-end">
-                  <h2 class="text-xl font-extrabold">
-                    Fresh is Best
-                  </h2>
-                  <div class="divider w-20 m-0"></div>
-                  <p>
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                </div>
-              </div>
-              <!-- card 3 -->
-              <div class="flex gap-x-4 flex-row-reverse ">
-                <div>
-                  <img src="./images/gift_box_icon.png" alt="" class="h-auto rounded-full">
-                </div>
-                <div class="grid gap-y-0 place-items-end">
-                  <h2 class="text-xl font-extrabold">
-                    Gift Certificates
-                  </h2>
-                  <div class="divider w-20 m-0"></div>
-                  <p>
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                </div>
-              </div>
-    
+            <div class="grid gap-y-0 place-items-end">
+              <h2 class="text-xl font-extrabold">
+                Dedicated Team
+              </h2>
+              <div class="divider w-20 m-0"></div>
+              <p>
+                Professional employees are there for you to pick the most amazing and fresh fruits.
+              </p>
             </div>
-            <!-- responsive part -->
-            <div class=" w-full mx-auto flex flex-col gap-y-8  lg:hidden ">
-              <!-- card 1 -->
-              <div class=" flex flex-col text-center items-center gap-x-4  gap-y-3 ">
-                <div>
-                  <img src="./images/Ellipse 2.png" alt="" class="w-auto">
-                </div>
-                <div class="grid gap-y-1 place-items-center">
-                  <h2 class="text-xl font-extrabold">
-                    Dedicated Team
-                  </h2>
-                  <div class="divider w-32 m-0 "></div>
-                  <p>
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                </div>
-              </div>
-              <!-- card 2 -->
+          </div>
+          <!-- card 2 -->
+          <div class="flex gap-x-4 flex-row-reverse ">
+            <div>
+              <img src="./images/love-icon.png" alt="" class="h-auto rounded-full">
+            </div>
+            <div class="grid gap-y-0 place-items-end">
+              <h2 class="text-xl font-extrabold">
+                Fresh is Best
+              </h2>
+              <div class="divider w-20 m-0"></div>
+              <p>
+                Professional employees are there for you to pick the most amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="flex gap-x-4 flex-row-reverse ">
+            <div>
+              <img src="./images/gift_box_icon.png" alt="" class="h-auto rounded-full">
+            </div>
+            <div class="grid gap-y-0 place-items-end">
+              <h2 class="text-xl font-extrabold">
+                Gift Certificates
+              </h2>
+              <div class="divider w-20 m-0"></div>
+              <p>
+                Professional employees are there for you to pick the most amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- responsive part -->
+        <div class=" w-full mx-auto flex flex-col gap-y-8  lg:hidden ">
+          <!-- card 1 -->
+          <div class=" flex flex-col text-center items-center gap-x-4  gap-y-3 ">
+            <div>
+              <img src="./images/Ellipse 2.png" alt="" class="w-auto">
+            </div>
+            <div class="grid gap-y-1 place-items-center">
+              <h2 class="text-xl font-extrabold">
+                Dedicated Team
+              </h2>
+              <div class="divider w-32 m-0 "></div>
+              <p>
+                Professional employees are there for you to pick the most amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
           <div class="flex flex-col text-center items-center gap-x-4 gap-y-3">
             <div>
               <img src="./images/love-icon.png" alt="" class="h-auto rounded-full">
@@ -807,69 +812,69 @@
               </p>
             </div>
           </div>
-            </div>
-            
-          </div>
+        </div>
+
+      </div>
     </section>
 
   </main>
-    
+
   <footer>
     <!-- footer -->
 
-  <div class="bg-black hidden gap-y-12 w-full pt-16 pb-20 lg:grid">
-    <div class="flex items-center justify-center gap-3">
-         <img src="./images/logo.png" alt="">
+    <div class="bg-black hidden gap-y-12 w-full pt-16 pb-20 lg:grid">
+      <div class="flex items-center justify-center gap-3">
+        <img src="./images/logo.png" alt="">
         <h1 class="text-white text-3xl font-semibold">Fruit Burst</h1>
+      </div>
+
+      <div class="flex justify-center gap-14 text-base text-white ">
+        <a class="cursor-pointer">Home</a>
+        <a class="cursor-pointer">About Us</a>
+        <a class="cursor-pointer">Shop</a>
+        <a class="cursor-pointer">All Fruits</a>
+        <a class="cursor-pointer">Support</a>
+        <a class="cursor-pointer">My Account</a>
+      </div>
+
+      <div class="flex justify-center gap-10">
+        <img class="cursor-pointer" src="./images/twitter_1.png" alt="">
+        <img class="cursor-pointer" src="./images/facebook_1.png" alt="">
+        <img class="cursor-pointer" src="./images/Group_49.png" alt="">
+        <img class="cursor-pointer" src="./images/instagram_1.png" alt="">
+        <img class="cursor-pointer" src="./images/linkedin_1.png" alt="">
+        <img class="cursor-pointer" src="./images/apple_1.png" alt="">
+      </div>
     </div>
 
-    <div class="flex justify-center gap-14 text-base text-white">
-        <a>Home</a>
-        <a>About Us</a>
-        <a>Shop</a>
-        <a>All Fruits</a>
-        <a>Support</a>
-        <a>My Account</a>
-    </div>
-
-    <div class="flex justify-center gap-10">
-        <img src="./images/twitter_1.png" alt="">
-        <img src="./images/facebook_1.png" alt="">
-        <img src="./images/Group_49.png" alt="">
-        <img src="./images/instagram_1.png" alt="">
-        <img src="./images/linkedin_1.png" alt="">
-        <img src="./images/apple_1.png" alt="">
-    </div>
-</div>
-
-<!-- footer responsive -->
-<div class="bg-black grid gap-y-12 w-full pt-12 pb-12 px-8 lg:hidden">
-    <div class="flex items-center justify-center gap-3">
-         <img src="./images/logo.png" alt="" class="h-9 w-8">
+    <!-- footer responsive -->
+    <div class="bg-black grid gap-y-12 w-full pt-12 pb-12 px-8 lg:hidden">
+      <div class="flex items-center justify-center gap-3">
+        <img src="./images/logo.png" alt="" class="h-9 w-8">
         <h1 class="text-white text-xl font-semibold">Fruit Burst</h1>
-    </div>
+      </div>
 
-    <div class="grid grid-cols-4 justify-center gap-14 text-base text-white">
-        <a>Home</a>
-        <a>About Us</a>
-        <a>Shop</a>
-        <a>All Fruits</a>
-    </div>
-    <div class=" flex justify-center items-center gap-20 text-white">
-        <a>Support</a>
-        <a>My Account</a>
-    </div>
+      <div class="grid grid-cols-4 justify-center gap-14 text-base text-white text-center">
+        <a class="cursor-pointer">Home</a>
+        <a class="cursor-pointer">About Us</a>
+        <a class="cursor-pointer">Shop</a>
+        <a class="cursor-pointer">All Fruits</a>
+      </div>
+      <div class=" flex justify-center items-center gap-20 text-white">
+        <a class="cursor-pointer">Support</a>
+        <a class="cursor-pointer">My Account</a>
+      </div>
 
-    <div class="flex justify-center gap-7">
-        <img src="./images/twitter_1.png" alt="">
-        <img src="./images/facebook_1.png" alt="">
-        <img src="./images/Group_49.png" alt="">
-        <img src="./images/instagram_1.png" alt="">
-        <img src="./images/linkedin_1.png" alt="">
-        <img src="./images/apple_1.png" alt="">
+      <div class="flex justify-center gap-7">
+        <img class="cursor-pointer" src="./images/twitter_1.png" alt="">
+        <img class="cursor-pointer" src="./images/facebook_1.png" alt="">
+        <img class="cursor-pointer" src="./images/Group_49.png" alt="">
+        <img class="cursor-pointer" src="./images/instagram_1.png" alt="">
+        <img class="cursor-pointer" src="./images/linkedin_1.png" alt="">
+        <img class="cursor-pointer" src="./images/apple_1.png" alt="">
+      </div>
     </div>
-</div>
-   <!-- footer end -->
+    <!-- footer end -->
   </footer>
 </body>
 
